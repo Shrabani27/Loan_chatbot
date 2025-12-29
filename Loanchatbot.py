@@ -6,7 +6,7 @@ st.set_page_config(
 )
 
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
-model = genai.GenerativeModel("gemini-2-flash")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 st.title("Loan Credibility AI Chatbot")
 st.write("AI-powered loan eligibility analysis with explanation.")
